@@ -16,6 +16,12 @@ export default function Landing() {
 
                     <h2 className="name-nav">Ruffin</h2>
                 </nav>
+                <div className="title">
+                    <main>
+                        <span><p>let name = Miah;</p></span>
+                    </main>
+                    <h2 className="title-h2">Console.log("Hello 👋");</h2>
+                </div>
                 <ul className="nav-link">
                     <a href="">About</a>
                     <a href="">Work</a>
