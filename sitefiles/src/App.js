@@ -1,11 +1,11 @@
 import React from "react"
-import Landing from "./Components/background";
+import Landing from "./Components/landing-section";
 
 
 function App() {
   return (
     <>
-    <Landing />
+      <Landing />
     </>
   );
 }
