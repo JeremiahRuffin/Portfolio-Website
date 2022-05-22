@@ -1,14 +1,24 @@
 import React from "react"
-import Background_Img from "./Images/background.png"
+import Logo from "./Images/logo.png"
 
 
-export default function Background () {
+export default function Landing () {
 
     return (
         <>
-        <div className="background">
-            <img classname="bg" src={Background_Img} width={ '2048px' } height= { '1145px' } />
-        </div>
+        <div className="fpage">
+            <nav>
+                <a href="" className="name-nav">Jeremiah</a>
+
+                <div className="logo">
+                <img src={Logo} width= {'100px'}/>
+                </div>
+
+                <a href="" className="name-nav">Ruffin</a>
+
+                <h1 className="nav-link">social links</h1>
+            </nav>
+            </div>
         </>
     )
 

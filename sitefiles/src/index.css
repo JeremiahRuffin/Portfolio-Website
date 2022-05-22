@@ -21,10 +21,12 @@ code {
 /*Header CSS */
 
 nav {
-  background-color: black;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.017);
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 130px;
   align-items: center;
   justify-content: center;
 }
@@ -43,6 +45,13 @@ nav a {
   text-shadow: 0px 0px 2px  rgb(245, 167, 225);
   font-size: 20px;
 }
+
+.nav-link {
+  position: absolute;
+  top: 90px;
+  color: white;
+
+}
 @media only screen and (max-width: 400px) {
   .logo{
     display: none;
@@ -50,20 +59,12 @@ nav a {
 }
 
 /*background content */
-
-.background-content h1 {
-  writing-mode: vertical-lr;
-  color: rgb(255, 255, 255);
-  overflow: visible;
+.fpage {
+  height: 100vh;
 }
 
-.background-container {
-  text-align: center;
-  align-content: center;
-  align-self: center;
-}
-
-.background img {
-  width: 100%;
-  height: auto;
+.fpage {
+  background-image: url('/src/Components/Images/background.png');
+  background-position: center;
+  background-size: cover;
 }

@@ -1,13 +1,11 @@
 import React from "react"
-import Background from "./Components/background";
-import Header from "./Components/header";
+import Landing from "./Components/background";
 
 
 function App() {
   return (
     <>
-    <Header/>
-    <Background />
+    <Landing />
     </>
   );
 }
