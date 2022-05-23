@@ -1,6 +1,9 @@
 import React from "react"
 import Logo from "./Images/logo.png"
-
+import { TiSocialLinkedin } from 'react-icons/ti'
+import { BsGithub } from 'react-icons/bs'
+import { BsInstagram } from 'react-icons/bs'
+import { FaTiktok } from 'react-icons/fa'
 
 export default function Landing() {
 
@@ -8,19 +11,18 @@ export default function Landing() {
         <>
             <div className="fpage">
                 <nav>
-                    <h2 className="name-nav">Jeremiah</h2>
-
                     <div className="logo">
                         <img src={Logo} width={'150px'} />
                     </div>
-
-                    <h2 className="name-nav">Ruffin</h2>
                 </nav>
-                <div className="title">
+                <div className="sub-heading">
                     <main>
-                        <span><p>let name = Miah;</p></span>
+                        <span><p>Jeremiah Ruffin</p></span>
                     </main>
-                    <h2 className="title-h2">Console.log("Hello 👋");</h2>
+                    <br>
+                    </br>
+                    <h2 className="sub-heading-h2">Frontend Developer 👨‍💻 Digital Marketing Specialist</h2>
+
                 </div>
                 <ul className="nav-link">
                     <a href="">About</a>
