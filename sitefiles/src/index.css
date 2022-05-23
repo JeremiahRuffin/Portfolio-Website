@@ -2,6 +2,11 @@
   margin: 0;
 }
 
+:root {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+}
+
 /*Main fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
@@ -57,13 +62,15 @@ nav {
 
 /*background */
 .fpage {
-  height: 105vh;
+  height: 98vh;
 }
 
 .fpage {
+  background-attachment: fixed;
   background-image: url('/src/Components/Images/background.png');
   background-position: center;
   background-size: cover;
+  border-radius: 5px;
 }
 
 main {
@@ -128,8 +135,36 @@ p:hover {
   transition: all 0.2s ease-out;
   font-family: 'Staatliches', cursive;
   text-shadow: 0px 0px 2px rgb(0, 0, 0);
+  text-align: center;
 }
 
 .sub-heading h2:hover {
   color: white;
+}
+
+/* About */
+
+.about-fpage {
+  padding-top: 5%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  border-top: 2px white solid;
+}
+
+.about-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Staatliches', cursive;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 15vw;
+  padding-top: 100px;
+  padding-left: 30%;
+  opacity: 0.2;
+}
+
+.about-fpage img {
+  padding-left: 50px;
+  border-radius: 5px;
 }
