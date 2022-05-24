@@ -63,6 +63,7 @@ nav {
 /*background */
 .fpage {
   height: 98vh;
+  cursor: pointer;
 }
 
 .fpage {
@@ -149,6 +150,7 @@ p:hover {
   height: 100vh;
   background-color: rgb(0, 0, 0);
   border-top: 2px white solid;
+  cursor: pointer;
 }
 
 .about-title {
@@ -159,12 +161,34 @@ p:hover {
   color: rgb(255, 255, 255);
   position: absolute;
   font-size: 15vw;
-  padding-top: 100px;
-  padding-left: 30%;
+  padding-left: 32%;
   opacity: 0.2;
+  text-shadow: 0px 0px 2px rgb(0, 0, 0);
+  transition: all 0.5s ease-out;
 }
 
 .about-fpage img {
   padding-left: 50px;
   border-radius: 5px;
+  border-right: 2px white solid;
+  border-bottom: 2px white solid;
+}
+
+.about-subtitle {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Staatliches', cursive;
+  position: absolute;
+  top: 117%;
+  left: 40%;
+  font-size: 5vw;
+  opacity: 1;
+  text-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+
+.about-title:hover {
+  opacity: 0;
+  transition: all 0.5s ease-out;
 }

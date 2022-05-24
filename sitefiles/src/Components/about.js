@@ -11,6 +11,7 @@ export default function About() {
             <div className="about-fpage">
                 <h1 className="about-title">About Me</h1>
                 <img src={aboutimg} width={'300px'} />
+                <h2 className="about-subtitle">A Creative Figure</h2>
             </div>
         </>
     )
