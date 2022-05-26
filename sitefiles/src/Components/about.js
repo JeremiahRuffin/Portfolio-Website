@@ -1,5 +1,5 @@
 import React from "react";
-import aboutimg from "./Images/banner.png"
+import aboutimg from "./Images/banner.jpg"
 import { TiSocialLinkedin } from 'react-icons/ti'
 import { BsGithub } from 'react-icons/bs'
 import { BsInstagram } from 'react-icons/bs'
@@ -10,8 +10,7 @@ export default function About() {
         <>
             <div className="about-fpage">
                 <h1 className="about-title">About Me</h1>
-                <img src={aboutimg} width={'300px'} />
-                <h2 className="about-subtitle">A Creative Figure</h2>
+                <p>An architech with an addiction to extremely spicy chicken! <br></br>Lover of technology, slow music, and Français. C'est moi, This is me!</p>
             </div>
         </>
     )

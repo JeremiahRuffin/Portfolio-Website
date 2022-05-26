@@ -13,11 +13,8 @@ export default function Landing() {
                     </div>
                 </nav>
                 <div className="sub-heading">
-                    <main>
-                        <span><p>Jeremiah Ruffin</p></span>
-                    </main>
-                    <h2 className="sub-heading-h2">Frontend Developer 👨‍💻 Digital Marketing Specialist</h2>
-
+                    <p>Hi, I'M <span className="sub-heading-detail">Jeremiah</span></p>
+                    <h2 className="sub-heading-h2"> A Frontend Developer and Marketing Specialist <br></br>from Detroit, MI</h2>
                 </div>
                 <ul className="nav-link">
                     <a href="">About</a>

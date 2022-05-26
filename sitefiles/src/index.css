@@ -47,6 +47,8 @@ nav {
 .nav-link a:hover {
   background-color: rgba(235, 162, 221, 0.472);
   border-radius: 5px;
+  text-decoration: underline;
+  text-underline-offset: 2px;
   transition: all 0.4s ease-out;
 }
 
@@ -81,48 +83,15 @@ main {
 }
 
 
-/* title */
-
-p {
-  cursor: pointer;
-  position: relative;
-  display: inline-block;
-  font-size: 3rem;
-  font-family: 'Staatliches', cursive;
-  background-color: white;
-  background-clip: text;
-  color: transparent;
-  background-repeat: no-repeat;
-  transition: background 0.2s ease-out;
-  white-space: nowrap;
-}
-
-span {
-  position: relative;
-}
-
-span:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  height: 15px;
-  bottom: 9px;
-}
-
-p:hover {
-  background-position: 0 11px;
-  color: rgba(244, 177, 235, 0.487);
-  transition: all 0.2s ease-out;
-}
-
-/* title sub-headings*/
+/* Landing Page title */
 
 .sub-heading {
-  display: flex;
-  flex-direction: column;
-  margin-top: 15%;
-  letter-spacing: 3px;
+  padding-top: 20vh;
+  font-size: 65px;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Staatliches', cursive;
+  color: white;
 }
 
 .sub-heading-h2 {
@@ -132,20 +101,27 @@ p:hover {
   justify-content: center;
   letter-spacing: 3px;
   word-spacing: 5px;
-  font-size: 15px;
+  font-size: 20px;
   transition: all 0.2s ease-out;
   font-family: 'Staatliches', cursive;
   text-shadow: 0px 0px 2px rgb(0, 0, 0);
   text-align: center;
+  padding-top: 15px;
 }
 
 .sub-heading h2:hover {
   color: white;
 }
 
+.sub-heading-detail {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
 /* About */
 
 .about-fpage {
+  display: block;
   padding-top: 5%;
   height: 100vh;
   background-color: rgb(0, 0, 0);
@@ -160,35 +136,43 @@ p:hover {
   font-family: 'Staatliches', cursive;
   color: rgb(255, 255, 255);
   position: absolute;
-  font-size: 15vw;
-  padding-left: 32%;
-  opacity: 0.2;
+  font-size: 12vw;
+  padding-left: 30%;
+  opacity: 1;
   text-shadow: 0px 0px 2px rgb(0, 0, 0);
   transition: all 0.5s ease-out;
+  text-decoration: underline;
 }
 
 .about-fpage img {
   padding-left: 50px;
   border-radius: 5px;
-  border-right: 2px white solid;
-  border-bottom: 2px white solid;
 }
 
-.about-subtitle {
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+/* About Media Q's */
+
+@media only screen and (max-width: 1270px) {
+
+  .about-title {
+    opacity: 1;
+    padding-left: 26.5%;
+    text-decoration: underline;
+    font-size: 15vw;
+  }
+}
+
+/* About Text/Paragraph */
+
+.about-fpage p {
+  padding-top: 20%;
+  text-align: center;
+  cursor: pointer;
+  font-size: 25px;
   font-family: 'Staatliches', cursive;
-  position: absolute;
-  top: 117%;
-  left: 40%;
-  font-size: 5vw;
-  opacity: 1;
-  text-shadow: 0px 0px 2px rgb(0, 0, 0);
+  color: white;
 }
 
-.about-title:hover {
-  opacity: 0;
-  transition: all 0.5s ease-out;
+.about-fpage p:hover {
+  color: rgb(244, 177, 235);
+  transition: all 0.2s ease-out;
 }
